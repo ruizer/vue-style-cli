@@ -1,0 +1,33 @@
+{
+  "name": "vue-style-cli",
+  "version": "1.0.0",
+  "description": "A simple cli tool for Vue",
+  "main": "index.js",
+  "bin": {
+    "vs": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruizer/vue-style-cli.git"
+  },
+  "keywords": [
+    "vue",
+    "cli",
+    "tool"
+  ],
+  "author": "ruizer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ruizer/vue-style-cli/issues"
+  },
+  "homepage": "https://github.com/ruizer/vue-style-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "mkdirp": "^0.5.1",
+    "tpl_apply": "^1.0.5"
+  }
+}
