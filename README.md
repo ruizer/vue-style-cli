@@ -26,4 +26,5 @@ Options:
     -o,--only          create only component without directory
     -l, --lang [lang]  CSS Modules
     -h, --help         output usage information
+    -t, --typescript'  TypeScript support
 ```
