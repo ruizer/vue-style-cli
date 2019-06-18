@@ -24,7 +24,8 @@ Options：
 Options:
     -p, --path [path]  real path; Please use relative paths
     -o,--only          create only component without directory
+    -s,--scoped        Scoped CSS
     -l, --lang [lang]  CSS Modules
+    -t, --typescript  TypeScript support
     -h, --help         output usage information
-    -t, --typescript'  TypeScript support
 ```
