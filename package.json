@@ -1,6 +1,6 @@
 {
   "name": "vue-style-cli",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A simple cli tool for Vue",
   "main": "index.js",
   "bin": {
