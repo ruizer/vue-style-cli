@@ -24,6 +24,7 @@ program
   .option('-o,--only', 'create only component without directory')
   .option('-s,--scoped', 'Scoped CSS')
   .option('-l, --lang [lang]', 'CSS Modules')
+  .option('-t, --typescript', 'TypeScript support')
   .action((name, cmd) => {
     try {
       cmd.only
@@ -32,8 +33,15 @@ program
             getRealPath(cmd.path),
             cmd.lang,
             cmd.scoped,
+            cmd.typescript,
           )
-        : generateComponent(name, getRealPath(cmd.path), cmd.lang, cmd.scoped);
+        : generateComponent(
+            name,
+            getRealPath(cmd.path),
+            cmd.lang,
+            cmd.scoped,
+            cmd.typescript,
+          );
     } catch (e) {
       console.log(e);
     }
