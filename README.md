@@ -26,6 +26,6 @@ Options:
     -o,--only          create only component without directory
     -s,--scoped        Scoped CSS
     -l, --lang [lang]  CSS Modules
-    -t, --typescript  TypeScript support
+    -t, --typescript [format] TypeScript support two formats (In multi folder only): vue template and html template
     -h, --help         output usage information
 ```

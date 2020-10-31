@@ -1,5 +1,5 @@
 <template>
-  <div class="{{kebabCaseName}}"></div>
+  <div class="{{kebabCaseName}}-page"></div>
 </template>
 
 <script>
@@ -9,4 +9,5 @@ export default {
 </script>
 
 <style{{#if lang}} lang="{{lang}}"{{/if}}{{scoped}}>
+.{{kebabCaseName}}-page{}
 </style>

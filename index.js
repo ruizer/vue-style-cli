@@ -24,7 +24,10 @@ program
   .option('-o,--only', 'create only component without directory')
   .option('-s,--scoped', 'Scoped CSS')
   .option('-l, --lang [lang]', 'CSS Modules')
-  .option('-t, --typescript', 'TypeScript support')
+  .option(
+    "-t, --typescript [format]",
+    "TypeScript support two formats (In multi folder only): vue template and html template"
+  )
   .action((name, cmd) => {
     try {
       cmd.only
