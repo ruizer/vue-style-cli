@@ -9,4 +9,4 @@ import { Component, Vue } from "vue-property-decorator";
 export default class {{camelCaseName}} extends Vue {}
 </script>
 
-<style{{#if lang}} lang="{{lang}}"{{/if}}{{scoped}} src="./index.{{lang}}"></style>
+<style{{#if lang}} lang="{{lang}}"{{/if}} {{scoped}} src="./index.{{lang}}"></style>

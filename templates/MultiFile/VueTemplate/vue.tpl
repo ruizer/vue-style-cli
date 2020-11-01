@@ -9,4 +9,4 @@ export default {
 };
 </script>
 
-<style{{#if lang}} lang="{{lang}}"{{/if}}{{scoped}} src="./index.{{lang}}"></style>
+<style{{#if lang}} lang="{{lang}}"{{/if}} {{scoped}} src="./index.{{lang}}"></style>
