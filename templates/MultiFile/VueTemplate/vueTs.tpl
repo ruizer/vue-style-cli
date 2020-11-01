@@ -1,5 +1,5 @@
 <template>
-  <div class="{{kebabCaseName}}"></div>
+  <div class="{{kebabCaseName}}-page"></div>
 </template>
 
 <script lang="ts">

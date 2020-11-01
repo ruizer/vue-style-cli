@@ -1,5 +1,5 @@
 <template>
-  <div class="{{kebabCaseName}}">
+  <div class="{{kebabCaseName}}-page">
   </div>
 </template>
 
